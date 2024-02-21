@@ -1,0 +1,14 @@
+Algorithm:
+1.Soil Moisture Sensing Algorithm:
+if soil_moisture < moisture_threshold:
+    activate_watering_system()
+2.Watering Duration Algorithm:
+watering_duration = calculate_watering_duration()
+activate_watering_system(duration=watering_duration)
+3.Weather-based Adjustment Algorithm:
+if is_dry_season() and no_rainfall_forecasted():
+    adjust_watering_schedule()
+4.Blynk Integration Algorithm:
+blynk.virtual_write(V1, soil_moisture)
+if blynk_button_pressed():
+    manual_watering_mode()
