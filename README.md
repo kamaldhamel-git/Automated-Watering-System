@@ -4,3 +4,4 @@ The automated watering system is a IoT based irrigation project which uses Node 
 2. Make sure to replace "YourWiFiSSID" and "YourWiFiPassword" with your actual Wi-Fi credentials.
 3. Provide the actual Blynk Template-id, template-name and template-token.
 4. Virtual pins V0 and V1 in the Blynk app are used to display temperature and humidity values, and virtual pin V2 is used to indicate moisture status and control the water pump manually through a button widget. 
+After adding the libraries and by providing the actual values of the blnk and other componential values, we can simply upload the code to the board and can see the progress.
